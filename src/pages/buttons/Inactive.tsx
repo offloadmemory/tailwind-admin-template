@@ -12,11 +12,11 @@ function Inactive() {
             />
 
             <div className="flex items-center space-x-1 pt-5">
-                <button className="bg-blue-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none">Primary</button>
+                <button className="bg-blue-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none cursor-not-allowed">Primary</button>
 
-                <button className="bg-yellow-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none">Warning</button>
+                <button className="bg-yellow-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none cursor-not-allowed">Warning</button>
 
-                <button className="bg-red-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none">Danger</button>
+                <button className="bg-red-300 text-white rounded-md w-20 h-6 justify-center text-xs focus:outline-none cursor-not-allowed">Danger</button>
             </div>
         </div>
 
