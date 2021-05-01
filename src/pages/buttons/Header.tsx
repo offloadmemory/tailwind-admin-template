@@ -11,7 +11,7 @@ const Linked = (props: { title: any; description: any; }) => {
             <div className="flex space-x-1 items-center">
                 <div>{title}</div>
                 <div className="has-tooltip">
-                    <span className="tooltip rounded shadow-lg text-sm p-1 bg-gray-600 text-white -mt-8">Copy code</span>
+                    <span className="tooltip rounded shadow-lg text-xs p-1 bg-gray-600 text-white -mt-8">Copy code</span>
                     <button className="w-5 h-5 border flex items-center justify-center rounded-md text-gray-400 bg-gray-50 border-gray-400 hover:bg-gray-400 hover:text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="{2}" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
@@ -20,7 +20,7 @@ const Linked = (props: { title: any; description: any; }) => {
                 </div>
 
                 <div className="has-tooltip">
-                    <span className="tooltip rounded shadow-lg text-sm p-1 bg-gray-600 text-white -mt-8">Show code</span>
+                    <span className="tooltip rounded shadow-lg text-xs p-1 bg-gray-600 text-white -mt-8">Show code</span>
                     <button className="w-5 h-5 border flex items-center justify-center bg-gray-50 rounded-md text-gray-400 border-gray-400 hover:bg-gray-400 hover:text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
