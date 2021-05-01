@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Forms() {
     return (
@@ -8,4 +8,4 @@ function Forms() {
     )
 }
 
-export default Forms
+export default Forms;
