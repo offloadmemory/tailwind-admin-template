@@ -2,15 +2,17 @@
 
 import React from "react";
 
-import ActiveButtons from "./ActiveButtons";
-import InactiveButtons from "./InactiveButtons";
+import Active from "./Active";
+import Inactive from "./Inactive";
+import Outlined from "./Outlined";
 
 function Buttons() {
     return (
-        <>
-            <ActiveButtons />
-            <InactiveButtons />
-        </>
+        <div>
+            <Active />
+            <Inactive />
+            <Outlined />
+        </div>
     )
 }
 
