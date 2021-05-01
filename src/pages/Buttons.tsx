@@ -12,6 +12,12 @@ function Buttons() {
 
                 <button className="bg-red-500 text-white rounded-md w-20 h-6 justify-center text-xs hover:bg-red-300">Danger</button>
             </div>
+
+            <div className="pt-5">
+                <div className="bg-gray-100 w-1/1 h-48 border-red-800 text-sm text-gray-500">
+                    Copy the component code here...
+                </div>
+            </div>
         </div>
     )
 }
