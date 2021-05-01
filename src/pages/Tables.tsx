@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Tables() {
     return (
@@ -8,4 +8,4 @@ function Tables() {
     )
 }
 
-export default Tables
+export default Tables;

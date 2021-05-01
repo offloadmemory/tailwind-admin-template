@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Modals() {
     return (
@@ -8,4 +8,4 @@ function Modals() {
     )
 }
 
-export default Modals
+export default Modals;
