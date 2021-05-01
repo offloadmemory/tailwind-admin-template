@@ -5,6 +5,7 @@ import React from "react";
 import Active from "./Active";
 import Inactive from "./Inactive";
 import Outlined from "./Outlined";
+import Linked from "./Linked";
 
 function Buttons() {
     return (
@@ -12,6 +13,7 @@ function Buttons() {
             <Active />
             <Inactive />
             <Outlined />
+            <Linked />
         </div>
     )
 }
