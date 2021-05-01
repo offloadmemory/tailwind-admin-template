@@ -1,7 +1,7 @@
 //https://play.tailwindcss.com/hwSdCEwf0B
 import React from "react";
 
-import "./buttons.css";
+import "./tooltip.css";
 
 const Linked = (props: { title: any; description: any; }) => {
     const { title, description } = props;
