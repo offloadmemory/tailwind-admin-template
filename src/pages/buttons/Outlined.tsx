@@ -1,7 +1,7 @@
 //https://play.tailwindcss.com/hwSdCEwf0B
 import React from "react";
 
-import Header from "./Header";
+import Header from "../Header";
 
 function Outlined() {
     return (
