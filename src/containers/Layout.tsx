@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 import Dashboard from '../pages/Dashboard';
 import Forms from "../pages/Forms";
 import Buttons from "../pages/buttons/Buttons";
-import Cards from "../pages/Cards";
+import Cards from "../pages/cards/Cards";
 import Charts from "../pages/Charts";
 import Tables from "../pages/Tables";
 import Modals from "../pages/Modals";
